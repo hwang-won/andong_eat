@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    margin: 30px;
+    padding: 16px;
+}
+
+#navbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 30px;
+    padding: 16px;
+    background-color: rgb(213, 213, 255);
+}
+
+.navbar__menu {
+    display: flex;
+}
+
+.navbar__menu__item {
+    padding: 8px 12px;
+    margin: 0 4px;
+
+}
+
+#map {
+    width: 90%;
+    height: 500px;
+    background-color: rgb(250, 190, 116);
+}
+
+#board {
+    width: 90%;
+    height: 300px;
+    background-color: rgb(174, 247, 222);
+}
+
+#review{
+    width: 90%;
+    height: 500px;
+    background-color: rgb(250, 190, 116);
+}
