@@ -42,8 +42,8 @@ section {
 
 #map {
     width: 90%;
-    height: 500px;
-    background-color: rgb(250, 190, 116);
+    height: 300px;
+    background-color: rgb(255, 255, 192);
 }
 
 #board {
