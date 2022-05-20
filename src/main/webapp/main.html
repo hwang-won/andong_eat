@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="stylesheet.css" />
-<title>여기 먹어봤니?</title>
+<title>먹어봤니?</title>
 </head>
 <body>
 	<nav id="navbar">
 		<div class="navbar__logo">
-			<i></i> <a href="main.html">여기 먹어봤니?</a>
+			<i></i> <a href="main.html">먹어봤니?</a>
 		</div>
 		<div>
 			<ul class="navbar__menu">
@@ -22,8 +22,8 @@
 		</div>
 		<div>로그인</div>
 	</nav>
-	<section id="map">
-		<div id="section_map" style="width: 100%; height: 500px;"></div>
+	<section id="se_map" style="width: 90%; height: 500px; background-color: rgb(255, 255, 192)">
+		<div id="map" style="width: 100%; height: 500px;"></div>
 	</section>
 	<!-- 지도를 표시할 div 입니다 -->
 	
@@ -31,7 +31,7 @@
 	<script type="text/javascript"
 		src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4abbe9af432e8c8239409d6ad5fefe31"></script>
 	<script>
-			var mapContainer = document.getElementById('section_map'), // 지도를 표시할 div 
+			var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     		mapOption = { 
         	center: new kakao.maps.LatLng(36.545148325900975, 128.79394521640884), // 지도의 중심좌표
         	level: 2 // 지도의 확대 레벨
